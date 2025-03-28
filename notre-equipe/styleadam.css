@@ -1,0 +1,453 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+a {
+	text-decoration: none;
+}
+.wrapper {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--text-color);
+	background-color: var(--background-color-main);
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+	#footer1 img {
+		height: 50px !important;
+	}
+
+	.bouton {
+		font-size: 12px !important;
+	}
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background-color: #1a3c6b;
+	padding: 0;
+	width: 100%;
+	height: 90px;
+	top: 0;
+	text-align: center;
+	z-index: 999;
+	transition: 0.3s;
+}
+
+.logo img {
+	height: 70px;
+	margin-left: 20px;
+	transition: 0.3s;
+}
+
+.image {
+	align-items: center;
+	display: flex;
+	padding: 0;
+	margin: 25px;
+
+}
+
+main img {
+	border: 5px solid black;
+	border-radius: 50%;
+	transition: 0.1s;
+	
+	
+}
+h2 {
+	margin:15px;
+}
+
+h4 {
+	margin-left: 50px;
+	display: inline-block;
+	color: red;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+p {
+	margin: 20px;
+	margin-bottom: 20px;
+}
+
+main h1 {
+	text-align: center;
+}
+
+h4 {
+	color: red;
+}
+
+.logo img:hover {
+	scale: 1.02;
+}
+
+nav {
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+nav a {
+	padding: 10px;
+	background-color: #265faf;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	font-weight: 700;
+	border-radius: 10px;
+	margin: 5px;
+	transition: 0.3s;
+	box-shadow: 1px 1px 3px black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	background-color: #22559b;
+}
+
+nav a:active {
+	transition: 0.1s;
+	transform: scale(0.9);
+}
+
+.button:active {
+	background-color: #142c4f;
+	border: solid 1px #1e64c6;
+	box-shadow: none;
+}
+
+#mainindex {
+	display: ruby;
+	justify-content: center;
+}
+
+#pushupactu {
+	margin-top: 20px;
+	background-color: #0f5c98;
+	height: auto;
+	width: 90%;
+	border-radius: 15px;
+	display: inline-block;
+}
+
+#pushupactu img {
+	border-radius: 15px;
+	width: 70%;
+	display: block;
+}
+
+footer {
+	bottom: 0;
+	color: white;
+	width: 100%;
+	height: 240px;
+	background-color: #1a3c6b;
+	border-color: #ffffff;
+	flex-shrink: 0;
+}
+
+#footerinfo {
+	width: 100%;
+	text-align: left;
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#footerinfo h3 {
+	margin-top: 0;
+}
+
+#copyright {
+	text-align: center;
+}
+
+#copyright p {
+	font-size: 14px;
+}
+
+#footer1 {
+	margin-left: 10vw;
+}
+
+#footer1 img {
+	height: 80px;
+}
+
+#footer1 p {
+	font-size: 14px;
+	font-family: "Poppins", sans-serif;
+	letter-spacing: 1px;
+	transition: 0.3s;
+	text-transform: uppercase;
+}
+
+#footer2 img {
+	height: 30px;
+	margin: 5px;
+	transition: 0.2s;
+}
+
+#footer2 img:hover {
+	scale: 1.2;
+}
+
+#footer3 a,
+#footer4 a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+
+#footer4 p {
+	margin: 0;
+	margin-top: 20px;
+	background-color: #265faf;
+	border-radius: 20px;
+	text-align: center;
+	padding: 8px;
+	font-weight: 700;
+	font-size: 16px;
+	box-shadow: 1px 1px 3px black;
+}
+
+#footer3 p {
+	font-size: 14px;
+	margin: 0;
+}
+
+#footer3 a:hover,
+.button:hover,
+#footer4 a:hover {
+	text-decoration: underline;
+}
+
+#footer4 {
+	margin-right: 10vw;
+}
+
+.button {
+	background-color: #265faf;
+	border-radius: 20px;
+	padding: 8px;
+	font-weight: 700;
+	font-size: 16px;
+	display: ruby-text;
+	box-shadow: 1px 1px 3px black;
+}
+
+.buttonnoclick {
+	background-color: #265faf;
+	border-radius: 20px;
+	padding: 8px;
+	box-shadow: 1px 1px 3px black;
+	color: white;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.buttonnoclick a {
+	color: white;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 20px;
+}
+
+/*Page individuel Safuan Mahroum*/
+
+.safuan {
+    background: black;
+    color: white;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 0.9em;
+}
+
+.safuan h2 {
+    font-weight: normal;
+    font-size: 3em;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.pagesafuan {
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.safuan ul {
+    font-size: 1.7em;
+}
+
+/*Barre pour les titres*/
+
+.safuan .container {
+    background: linear-gradient(90deg, rgb(168, 63, 109) 0%, rgb(170, 88, 40) 100%);
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.safuan .container ul {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.safuan .container2 {
+    background: linear-gradient(90deg, rgb(168, 63, 109) 0%, rgb(170, 88, 40) 100%);
+    border-radius: 7px;
+    display: flex;
+    list-style-type: none;
+}
+
+.safuan .container3 {
+    background: linear-gradient(90deg, rgb(168, 63, 109) 0%, rgb(170, 88, 40) 100%);
+    width: 15%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+
+
+
+
+/* ANIMATION*/
+
+.hidden {
+	opacity: 0;
+}
+
+.fade {
+	animation: fadeIn 1.5s ease;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeblur {
+	animation: blurin 2s ease;
+	filter: blur(3px);
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes blurin {
+	from {
+		filter: blur(3px);
+		opacity: 0;
+	}
+
+	to {
+		filter: blur(0px);
+		opacity: 1;
+	}
+
+}
+
+.transl {
+	animation: transIn 1s ease;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes transIn {
+	from {
+		transform: translateX(-10%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.transld {
+	animation: transInd 2s ease;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes transInd {
+	from {
+		transform: translateX(30%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0);
+		opacity: 0.4;
+	}
+}
+
+.translu {
+	animation: transInu 1s ease;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes transInu {
+	from {
+		transform: translateY(20%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+h4 {
+	display: inline-block;
+}

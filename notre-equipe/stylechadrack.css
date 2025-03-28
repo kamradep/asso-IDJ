@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  max-width: 5px;
+}
+
+/* .wrapper {
+    position: relative;
+    min-height: 100vh;
+    flex-direction: column;
+    }
+    
+    .content {
+    flex: 1;
+    }
+     */
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color-main);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+header {
+  color: #fff;
+  background-color: #1a3c6b;
+  height: 85px;
+  top: 0;
+  text-align: center;
+  height: 191px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  width: 100%;
+  font-size: 30%;
+}
+
+.home {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 50px;
+}
+
+.logo img:hover {
+  scale: 1.02;
+}
+
+nav {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+nav a {
+  padding: 10px;
+  background-color: #265faf;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 5px;
+  transition: 0.3s;
+  box-shadow: 1px 1px 3px black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: #22559b;
+}
+
+nav a:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+
+nav li {
+
+  display: flex;
+}
+
+nav a {
+  color: #d11111;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+
+nav a:hover {
+  border-bottom: solid 1px whitesmoke;
+}
+.reseaux1 {
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-left: -27px;
+}
+.reseaux2{
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-left: 0px;
+}
+.reseaux3{
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-left: 0px;
+}
+.reseaux4{
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-left: 0px;
+}
+video{
+  width: 452px;
+  border-radius: 10px;
+  margin-left: 319px;
+}
+.affiche1 {
+  width: 214px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-left: 27px;
+}
+.oeuvres{
+  margin: 0px;
+}
+.affiche2{
+  width: 335px;
+  border-radius: 10px;
+  margin-left: 27px;
+}
+.affiche3{
+  width: 451px;
+  border-radius: 10px;
+  margin-left: 27px;
+}
+
+.button:active {
+  background-color: #142c4f;
+}
+
+.image img {
+  width: 5%;
+  border-radius: 10px;
+  
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 20;
+  width: 50%;
+}
